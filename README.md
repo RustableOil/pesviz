@@ -19,7 +19,7 @@ Create a Python virtual environment, `source` into it, `git clone` the repositor
 
 ```
 python -m venv /your/venv/dir/pesviz_venv
-source /your/venv/dir/pesviz_venv
+source /your/venv/dir/pesviz_venv/bi/activate
 git clone https://github.com/RustableOil/pesviz.git
 cd pesviz
 ```
