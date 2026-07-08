@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pesviz"
+version = "0.1.0"
+dependencies = [
+    "pyglfw",
+    "PyOpenGL",
+    "numpy",
+    "pandas",
+    "h5py",
+    "pyglm",
+    "imgui",
+]
+
+[project.scripts]
+pesviz = "pesviz.__main__:main"
