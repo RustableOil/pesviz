@@ -36,4 +36,4 @@ perp_dist = centered @ plane_normal
 self.plane_fit_error = float(np.std(perp_dist))
 ```
 
-The perpendicular (not vertical) distance from the plane to each centered 3D position is obtained. Finally, 
+The perpendicular (not vertical) distance from the plane to each centered 3D position is obtained. Finally, `numpy` is used to get the standard deviations of these perpendicular distances. If the standard deviation is large enough, then the projected energy landscape data vieweing method is likely going to introduce some inaccuracy to the shape of the PES.
