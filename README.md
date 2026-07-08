@@ -3,7 +3,7 @@
 
 A 3D, Python & OpenGL-based program that uses a series of points and arrows to visually display the event search paths taken by a [pARTn](https://mammasmias.gitlab.io/artn-plugin/) event search. 
 
-![sample-view](sample.png)
+![alt text](https://github.com/RustableOil/pesviz/blob/main/docs/images/sample.png "sample render view")
 
 # Installation
 ---
