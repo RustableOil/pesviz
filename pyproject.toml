@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pesviz"
 version = "0.1.0"
 dependencies = [
-    "pyglfw",
+    "glfw",
     "PyOpenGL",
     "numpy",
     "pandas",

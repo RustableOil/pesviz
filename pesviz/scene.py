@@ -59,7 +59,6 @@ class Scene:
         centroid = self._pos_col.mean(axis=0)
         centered = self._pos_col - centroid
         cov = np.cov(centered, rowvar=False)
-        print(cov)
         eigvals, eigvecs = np.linalg.eigh(cov) # ascending eigenvalue order
         plane_normal = eigvecs[:, 0]
         plane_basis_u = eigvecs[:, 2] # largest-variance in-plane direction
